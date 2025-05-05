@@ -47,7 +47,7 @@ def analyze():
         for j in range(i + 1, n):
             xored = xor_bytes(hex_lines[i], hex_lines[j])
             for k in range(length):
-                print(xored[)
+                print(xored)
                 if 65 <= xored[k] <= 90:  # A-Z
                     space_counters[i][k] += 1
                     space_counters[j][k] += 1
